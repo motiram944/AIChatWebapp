@@ -1,0 +1,46 @@
+/* MarkdownComponent.css */
+.heading{
+    display: flex;
+    justify-content: center;
+}
+
+.markdown-container {
+    max-width: 800px; /* Adjust as needed */
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .markdown-container h1 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    font-weight: 800;
+  }
+  
+  .markdown-container h2 {
+    color: #555;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+  }
+
+  .feature-list {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .usage-list {
+    list-style-type: disc;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    gap:20px;
+  }
+  
+  .description {
+    margin-bottom: 10px;
+  }
+  
+  
+  /* Add styles for other Markdown elements as needed */
+  
